@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="360" viewBox="0 0 1250 360">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="#222"/></marker>
+    <style>
+      .box{fill:#fafafa;stroke:#d7dce2;stroke-width:1.4}
+      .bond{stroke:#222;stroke-width:2.2;fill:none;stroke-linecap:round}
+      .thin{stroke:#555;stroke-width:1.4;fill:none}
+      .arrow{stroke:#222;stroke-width:2.2;fill:none;marker-end:url(#arrow)}
+      .title{font-family:Arial, sans-serif;font-size:21px;font-weight:700;fill:#111}
+      .label{font-family:Arial, sans-serif;font-size:20px;fill:#111}
+      .small{font-family:Arial, sans-serif;font-size:14px;fill:#333}
+      .step{font-family:Arial, sans-serif;font-size:16px;fill:#333}
+    </style>
+  </defs>
+  <text x="35" y="38" class="title">Aspirin synthesis: acetylation of salicylic acid with acetic anhydride</text>
+
+  <rect x="35" y="70" width="245" height="220" rx="8" class="box"/>
+  <polygon points="105,125 135,142 135,176 105,193 75,176 75,142" class="bond"/>
+  <circle cx="105" cy="159" r="18" class="thin"/>
+  <line x1="135" y1="142" x2="175" y2="112" class="bond"/>
+  <text x="180" y="116" class="label">COOH</text>
+  <line x1="135" y1="176" x2="175" y2="206" class="bond"/>
+  <text x="180" y="212" class="label">OH</text>
+  <text x="85" y="260" class="small">salicylic acid</text>
+
+  <text x="300" y="180" class="label">+</text>
+  <rect x="340" y="105" width="230" height="130" rx="8" class="box"/>
+  <text x="378" y="165" class="label">CH3CO-O-COCH3</text>
+  <text x="405" y="210" class="small">acetic anhydride</text>
+
+  <line x1="600" y1="170" x2="790" y2="170" class="arrow"/>
+  <text x="635" y="137" class="step">H3PO4 or solid acid</text>
+  <text x="650" y="158" class="small">acetyl transfer</text>
+
+  <rect x="825" y="70" width="260" height="220" rx="8" class="box"/>
+  <polygon points="895,125 925,142 925,176 895,193 865,176 865,142" class="bond"/>
+  <circle cx="895" cy="159" r="18" class="thin"/>
+  <line x1="925" y1="142" x2="965" y2="112" class="bond"/>
+  <text x="970" y="116" class="label">COOH</text>
+  <line x1="925" y1="176" x2="965" y2="206" class="bond"/>
+  <text x="970" y="212" class="label">OCOCH3</text>
+  <text x="898" y="260" class="small">aspirin</text>
+
+  <text x="1105" y="180" class="label">+</text>
+  <rect x="1140" y="120" width="90" height="100" rx="8" class="box"/>
+  <text x="1154" y="165" class="label">AcOH</text>
+  <text x="1156" y="200" class="small">acetic acid</text>
+</svg>
