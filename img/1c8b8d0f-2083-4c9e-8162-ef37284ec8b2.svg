@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="230" viewBox="0 0 1120 230">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#222"/>
+    </marker>
+  </defs>
+  <style>
+    .bond { stroke:#222; stroke-width:2.2; stroke-linecap:round; fill:none; }
+    .thin { stroke:#222; stroke-width:1.5; stroke-linecap:round; fill:none; }
+    .arrow { stroke:#222; stroke-width:2; marker-end:url(#arrow); fill:none; }
+    .txt { font-family: Arial, "Microsoft YaHei", sans-serif; font-size:18px; fill:#111; dominant-baseline:middle; text-anchor:middle; }
+    .small { font-family: Arial, "Microsoft YaHei", sans-serif; font-size:14px; fill:#333; dominant-baseline:middle; text-anchor:middle; }
+    .cond { font-family: Arial, "Microsoft YaHei", sans-serif; font-size:15px; fill:#333; text-anchor:middle; }
+    .title { font-family: Arial, "Microsoft YaHei", sans-serif; font-size:16px; font-weight:700; fill:#111; }
+  </style>
+  <rect width="100%" height="100%" fill="#fff"/>
+  
+  <text class="title" x="24" y="32">乙酸乙酯：酸催化 Fischer 酯化</text>
+
+  <text class="txt" x="76" y="120">CH3</text>
+  <line class="bond" x1="105" y1="120" x2="150" y2="120"/>
+  <text class="txt" x="166" y="120">C</text>
+  <line class="bond" x1="162" y1="102" x2="162" y2="62"/>
+<line class="bond" x1="170" y1="102" x2="170" y2="62"/>
+<text class="txt" x="166" y="46">O</text>
+  <line class="bond" x1="184" y1="120" x2="230" y2="120"/>
+  <text class="txt" x="260" y="120">OH</text>
+
+  <text class="txt" x="320" y="120">+</text>
+
+  <text class="txt" x="392" y="120">HO</text>
+  <line class="bond" x1="420" y1="120" x2="462" y2="120"/>
+  <text class="txt" x="482" y="120">CH2</text>
+  <line class="bond" x1="510" y1="120" x2="552" y2="120"/>
+  <text class="txt" x="580" y="120">CH3</text>
+
+  <line class="arrow" x1="635" y1="120" x2="748" y2="120"/>
+  <text class="cond" x="692" y="92">浓 H2SO4, 回流</text>
+
+  <text class="txt" x="815" y="120">CH3</text>
+  <line class="bond" x1="844" y1="120" x2="884" y2="120"/>
+  <text class="txt" x="900" y="120">C</text>
+  <line class="bond" x1="896" y1="102" x2="896" y2="62"/>
+<line class="bond" x1="904" y1="102" x2="904" y2="62"/>
+<text class="txt" x="900" y="46">O</text>
+  <line class="bond" x1="918" y1="120" x2="955" y2="120"/>
+  <text class="txt" x="976" y="120">O</text>
+  <line class="bond" x1="992" y1="120" x2="1032" y2="120"/>
+  <text class="txt" x="1054" y="120">CH2CH3</text>
+
+  <text class="txt" x="1040" y="168">+ H2O</text>
+</svg>
