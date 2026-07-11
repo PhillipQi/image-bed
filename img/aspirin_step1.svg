@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="250" viewBox="0 0 980 250">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="#222"/></marker>
+    <style>.arrow{stroke:#222;stroke-width:2.2;fill:none;marker-end:url(#arrow)}.label{font-family:Arial,sans-serif;font-size:21px;fill:#111}.small{font-family:Arial,sans-serif;font-size:15px;fill:#333}.title{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#111}.box{fill:#fafafa;stroke:#d7dce2;stroke-width:1.3}</style>
+  </defs>
+  <text x="30" y="35" class="title">Step 1: Acid activates acetic anhydride</text>
+  <rect x="45" y="75" width="250" height="105" rx="8" class="box"/>
+  <text x="82" y="135" class="label">CH3CO-O-COCH3</text>
+  <text x="332" y="135" class="label">+ H+</text>
+  <line x1="420" y1="128" x2="600" y2="128" class="arrow"/>
+  <text x="455" y="102" class="small">protonation</text>
+  <rect x="635" y="75" width="300" height="105" rx="8" class="box"/>
+  <text x="660" y="124" class="label">CH3C(OH+)-O-COCH3</text>
+  <text x="690" y="160" class="small">more electrophilic acetyl carbon</text>
+</svg>
