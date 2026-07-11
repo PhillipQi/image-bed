@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="300" viewBox="0 0 1240 300">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#222"/>
+    </marker>
+  </defs>
+  <style>
+    .bond { stroke:#222; stroke-width:2.2; stroke-linecap:round; fill:none; }
+    .thin { stroke:#222; stroke-width:1.5; stroke-linecap:round; fill:none; }
+    .arrow { stroke:#222; stroke-width:2; marker-end:url(#arrow); fill:none; }
+    .txt { font-family: Arial, "Microsoft YaHei", sans-serif; font-size:18px; fill:#111; dominant-baseline:middle; text-anchor:middle; }
+    .small { font-family: Arial, "Microsoft YaHei", sans-serif; font-size:14px; fill:#333; dominant-baseline:middle; text-anchor:middle; }
+    .cond { font-family: Arial, "Microsoft YaHei", sans-serif; font-size:15px; fill:#333; text-anchor:middle; }
+    .title { font-family: Arial, "Microsoft YaHei", sans-serif; font-size:16px; font-weight:700; fill:#111; }
+  </style>
+  <rect width="100%" height="100%" fill="#fff"/>
+  
+  <text class="title" x="24" y="32">苯甲酸：苯甲醇被 KMnO4 氧化后酸化</text>
+
+  <polygon class="bond" points="183.97114317029974,127.5 183.97114317029974,172.5 145,195 106.02885682970026,172.5 106.02885682970026,127.50000000000001 145,105"/><circle class="thin" cx="145" cy="150" r="23.400000000000002"/><line class="bond" x1="183.97114317029974" y1="127.5" x2="248" y2="92"/><text class="txt" x="296" y="84">CH2OH</text>
+
+  <line class="arrow" x1="360" y1="150" x2="500" y2="150"/>
+  <text class="cond" x="430" y="118">KMnO4, H2O, 回流</text>
+  <text class="cond" x="430" y="202">MnO4- → MnO2</text>
+
+  <polygon class="bond" points="648.9711431702997,127.5 648.9711431702997,172.5 610,195 571.0288568297003,172.5 571.0288568297002,127.50000000000001 610,105"/><circle class="thin" cx="610" cy="150" r="23.400000000000002"/><line class="bond" x1="648.9711431702997" y1="127.5" x2="713" y2="92"/><text class="txt" x="760" y="84">COO- K+</text>
+
+  <line class="arrow" x1="835" y1="150" x2="945" y2="150"/>
+  <text class="cond" x="890" y="118">HCl 酸化</text>
+
+  <polygon class="bond" points="1078.9711431702997,127.5 1078.9711431702997,172.5 1040,195 1001.0288568297003,172.5 1001.0288568297002,127.50000000000001 1040,105"/><circle class="thin" cx="1040" cy="150" r="23.400000000000002"/><line class="bond" x1="1078.9711431702997" y1="127.5" x2="1143" y2="92"/><text class="txt" x="1188" y="84">COOH</text>
+
+</svg>
