@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1350" height="420" viewBox="0 0 1350 420">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L10,3 L0,6 Z" fill="#222"/>
+    </marker>
+    <style>
+      .box{fill:#fafafa;stroke:#d7dce2;stroke-width:1.4}
+      .bond{stroke:#222;stroke-width:2.1;fill:none;stroke-linecap:round}
+      .thin{stroke:#555;stroke-width:1.3;fill:none}
+      .arrow{stroke:#222;stroke-width:2.2;fill:none;marker-end:url(#arrow)}
+      .title{font-family:Arial, sans-serif;font-size:21px;font-weight:700;fill:#111}
+      .label{font-family:Arial, sans-serif;font-size:19px;fill:#111}
+      .small{font-family:Arial, sans-serif;font-size:14px;fill:#333}
+      .step{font-family:Arial, sans-serif;font-size:16px;fill:#333}
+    </style>
+  </defs>
+  <text x="35" y="38" class="title">Latest improved aspirin route: synthesis followed by mechanochemical nanocrystallization</text>
+
+  <rect x="35" y="75" width="210" height="185" rx="8" class="box"/>
+  <polygon points="92,122 120,138 120,170 92,186 64,170 64,138" class="bond"/>
+  <circle cx="92" cy="154" r="17" class="thin"/>
+  <line x1="120" y1="138" x2="154" y2="111" class="bond"/>
+  <text x="158" y="116" class="label">COOH</text>
+  <line x1="120" y1="170" x2="154" y2="198" class="bond"/>
+  <text x="158" y="204" class="label">OH</text>
+  <text x="72" y="240" class="small">salicylic acid</text>
+
+  <text x="265" y="170" class="label">+</text>
+  <rect x="310" y="105" width="210" height="120" rx="8" class="box"/>
+  <text x="345" y="160" class="label">Ac2O</text>
+  <text x="355" y="190" class="small">acetic anhydride</text>
+
+  <line x1="550" y1="165" x2="720" y2="165" class="arrow"/>
+  <text x="572" y="133" class="step">acetylation</text>
+  <text x="565" y="154" class="small">H2SO4 / 70-75 C</text>
+
+  <rect x="755" y="75" width="230" height="185" rx="8" class="box"/>
+  <polygon points="812,122 840,138 840,170 812,186 784,170 784,138" class="bond"/>
+  <circle cx="812" cy="154" r="17" class="thin"/>
+  <line x1="840" y1="138" x2="875" y2="111" class="bond"/>
+  <text x="879" y="116" class="label">COOH</text>
+  <line x1="840" y1="170" x2="875" y2="198" class="bond"/>
+  <text x="879" y="204" class="label">OAc</text>
+  <text x="800" y="240" class="small">aspirin crystal</text>
+
+  <line x1="1010" y1="165" x2="1160" y2="165" class="arrow"/>
+  <text x="1027" y="122" class="step">LAG milling</text>
+  <text x="1018" y="144" class="small">water, 30 Hz, 30 min</text>
+
+  <rect x="1185" y="65" width="135" height="205" rx="8" class="box"/>
+  <circle cx="1232" cy="117" r="9" fill="#222"/>
+  <circle cx="1265" cy="135" r="6" fill="#555"/>
+  <circle cx="1220" cy="160" r="7" fill="#333"/>
+  <circle cx="1285" cy="174" r="8" fill="#222"/>
+  <circle cx="1247" cy="205" r="6" fill="#555"/>
+  <circle cx="1208" cy="222" r="5" fill="#333"/>
+  <text x="1206" y="250" class="small">aspirin nanocrystals</text>
+
+  <text x="790" y="318" class="small">chemical identity: C9H8O4</text>
+  <text x="1050" y="318" class="small">solid-state improvement: size, polymorph, release</text>
+</svg>
